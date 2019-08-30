@@ -1,3 +1,5 @@
+# in a new ubuntu 16.04 docker
+apt install sudo
 # build clang & LLVM
 LLVM_DEP_PACKAGES="build-essential make cmake ninja-build git subversion python2.7 binutils-gold binutils-dev curl wget"
 sudo apt-get install -y $LLVM_DEP_PACKAGES
