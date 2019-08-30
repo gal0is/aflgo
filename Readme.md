@@ -90,6 +90,11 @@ export CXXFLAGS="$CXXFLAGS $ADDITIONAL"
 
 # Build libxml2 (in order to generate CG and CFGs).
 # Meanwhile go have a coffee ☕️
+# install deps
+apt install pkg-config
+# maybe
+apt install lzma lzma-dev liblzma liblzma-dev
+
 export LDFLAGS=-lpthread
 pushd $SUBJECT
   ./autogen.sh
